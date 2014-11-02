@@ -43,25 +43,46 @@ a:hover {
 blockquote {
   border: none;
   text-align: center;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 30px;
 }
-/* line 49, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 blockquote p {
   color: #2d7bc3;
   font-size: 22px;
   line-height: 36px;
   font-family: 'Montserrat', sans-serif;
 }
-/* line 55, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 blockquote p:before, blockquote p:after {
   content: "\"";
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 #slides {
   height: 400px;
 }
+/* line 67, ../sass/screen.scss */
+#slides div.caption {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 20px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.6))) !important;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%) !important;
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%) !important;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%) !important;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%) !important;
+}
 
-/* line 64, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 #navigation {
   -webkit-transition: background 0.5s ease;
   -moz-transition: background 0.5s ease;
@@ -71,22 +92,22 @@ blockquote p:before, blockquote p:after {
   position: fixed;
   width: 100%;
 }
-/* line 69, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 #navigation h1 {
   margin-top: 15px;
   float: left;
   color: #ffffff;
 }
-/* line 70, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 #navigation h1 img {
-  margin-right: 10px;
   margin-top: -3px;
 }
-/* line 77, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 #navigation h1:hover {
   text-decoration: underline;
+  border-bottom: 2px solid white;
 }
-/* line 81, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 #navigation ul.menu {
   margin-top: 25px;
   padding-bottom: 20px;
@@ -94,32 +115,32 @@ blockquote p:before, blockquote p:after {
   -webkit-padding-start: 0px;
   float: right;
 }
-/* line 87, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 #navigation ul.menu li {
   position: relative;
   list-style-type: none;
   display: inline;
   padding: 10px 10px;
 }
-/* line 88, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 #navigation ul.menu li a {
   color: #fff;
   font-size: 16px;
   font-weight: 100;
 }
-/* line 92, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 #navigation ul.menu li a:hover {
   color: white;
 }
-/* line 100, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 #navigation ul.menu li:hover {
   background: #5cba70;
 }
-/* line 104, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 #navigation ul.menu .menu-item-70 {
   background: #2d7bc3;
 }
-/* line 107, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 #navigation ul.menu ul.sub-menu {
   background: #5cba70;
   padding: 0px;
@@ -132,19 +153,19 @@ blockquote p:before, blockquote p:after {
   right: 0px;
   min-width: 150px;
 }
-/* line 113, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 #navigation ul.menu ul.sub-menu li {
   margin: 0px;
   padding: 7px 15px;
   display: block;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 .solid_background {
   background-color: #222222;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 header {
   background: url("../img/header.jpg");
   -webkit-background-size: cover;
@@ -156,33 +177,62 @@ header {
   height: 400px;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
+footer {
+  background: #222222;
+  text-align: center;
+}
+/* line 159, ../sass/screen.scss */
+footer ul {
+  text-align: center;
+  display: inline-block;
+  padding: 0px !important;
+  margin: 0px auto;
+}
+/* line 164, ../sass/screen.scss */
+footer ul li {
+  list-style: none;
+  display: table-cell;
+  margin: 10px;
+  padding: 10px;
+}
+/* line 169, ../sass/screen.scss */
+footer ul li a {
+  color: #5cba70;
+  font-size: 17px;
+}
+/* line 175, ../sass/screen.scss */
+footer p {
+  color: white;
+}
+
+/* line 181, ../sass/screen.scss */
 .home header {
   background: #000000;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .payoff .container {
   text-align: center;
   padding-bottom: 20px;
 }
-/* line 149, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .payoff .container h1 {
   margin: 30px 0px 30px 0px;
   color: #5cba70;
 }
-/* line 153, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .payoff .container p {
   padding: 10px 180px;
   font-size: 18px;
 }
-/* line 156, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .payoff .container p:nth-child(2) {
   font-size: 21px;
   font-weight: bold;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .projects {
   height: 460px;
   background-color: #5cba70;
@@ -190,7 +240,7 @@ header {
   color: #fff;
   line-height: 23px;
 }
-/* line 168, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .projects .left {
   position: absolute;
   margin-left: 50%;
@@ -200,11 +250,11 @@ header {
   width: 420px;
   padding: 20px 15px;
 }
-/* line 176, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .projects .left h1 {
   margin-bottom: 30px;
 }
-/* line 182, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .projects .left a.button {
   margin-top: 10px;
   color: #fff;
@@ -212,7 +262,7 @@ header {
   padding: 8px;
   background: #2d7bc3;
 }
-/* line 190, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .projects .right {
   position: absolute;
   top: 0px;
@@ -221,7 +271,7 @@ header {
   height: 460px;
 }
 
-/* line 199, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 section.gradient {
   left: 0px;
   right: 0px;
@@ -236,33 +286,33 @@ section.gradient {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 8%, rgba(0, 0, 0, 0) 28%) !important;
 }
 
-/* line 210, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .people h1 {
   margin-left: 0;
   margin-top: 40px;
 }
-/* line 214, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .people h2 {
   padding: 0px;
   margin: 5px 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
 }
-/* line 219, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .people h2:hover {
   text-decoration: underline;
 }
-/* line 223, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .people h2.name {
   margin-top: 40px;
 }
-/* line 226, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 .people h2.title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
-/* line 231, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 .people img {
   -webkit-border-radius: 80px 80px;
   -moz-border-radius: 80px / 80px;
@@ -270,75 +320,75 @@ section.gradient {
   float: left;
   margin-right: 20px;
 }
-/* line 236, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .people .person {
   float: left;
   width: 50%;
   padding: 2% 2%;
   margin: 20px 0;
 }
-/* line 241, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .people .person a:hover {
   text-decoration: none;
 }
 
-/* line 250, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .single section h1, .page section h1 {
   color: #5cba70;
   text-align: center;
   margin: 60px 0px 30px;
 }
-/* line 255, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .single section .meta, .page section .meta {
   color: #aaaaaa;
   margin-bottom: 30px;
   text-align: center;
 }
-/* line 259, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 .single section .meta a, .page section .meta a {
   color: #aaaaaa;
   text-decoration: underline;
 }
-/* line 262, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 .single section .meta a:hover, .page section .meta a:hover {
   color: #222222;
   background: transparent;
 }
-/* line 267, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .single section .meta .avatar-32, .page section .meta .avatar-32 {
   -webkit-border-radius: 16px 16px;
   -moz-border-radius: 16px / 16px;
   border-radius: 16px / 16px;
 }
-/* line 273, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 .single .content .alignnone, .page .content .alignnone {
   width: 100% !important;
   height: auto;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-/* line 276, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 .single .content .alignnone img, .page .content .alignnone img {
   width: 100% !important;
   height: auto;
 }
-/* line 286, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .single .content .wp-caption-text, .page .content .wp-caption-text {
   text-align: center;
 }
-/* line 289, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 .single .content p, .page .content p {
   margin: 0px auto 20px;
   max-width: 650px;
 }
-/* line 293, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 .single .content h2, .page .content h2 {
   margin: 50px auto 20px;
   max-width: 650px;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 303, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .single .content p:first-of-type {
   font-weight: 400;
   font-size: 21px;
@@ -349,62 +399,62 @@ section.gradient {
   border-bottom: 1px solid #eee;
 }
 
-/* line 316, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 .page section h1 {
   margin-bottom: 60px;
 }
 
-/* line 323, ../sass/screen.scss */
+/* line 363, ../sass/screen.scss */
 .news section h1 {
   color: #5cba70;
   text-align: center;
 }
 
-/* line 329, ../sass/screen.scss */
+/* line 369, ../sass/screen.scss */
 .news .posts {
   margin-bottom: 60px;
   max-width: 960px;
 }
-/* line 332, ../sass/screen.scss */
+/* line 372, ../sass/screen.scss */
 .news .posts .content {
   float: right;
   width: 580px;
 }
-/* line 336, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .news .posts .meta {
   margin-top: 10px;
   margin-bottom: 25px;
   color: #aaaaaa;
   text-align: left;
 }
-/* line 341, ../sass/screen.scss */
+/* line 381, ../sass/screen.scss */
 .news .posts .meta a {
   color: #aaaaaa;
   text-decoration: underline;
 }
-/* line 344, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 .news .posts .meta a:hover {
   color: #222222;
   background: transparent;
 }
-/* line 350, ../sass/screen.scss */
+/* line 390, ../sass/screen.scss */
 .news .posts .avatar-32 {
   -webkit-border-radius: 16px 16px;
   -moz-border-radius: 16px / 16px;
   border-radius: 16px / 16px;
 }
-/* line 353, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 .news .posts h2 {
   margin: 5px 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
 }
 
-/* line 362, ../sass/screen.scss */
+/* line 402, ../sass/screen.scss */
 .project .posts h2, .stichting .posts h2 {
   margin-bottom: 15px;
 }
-/* line 368, ../sass/screen.scss */
+/* line 408, ../sass/screen.scss */
 .project .intro p:first-of-type, .stichting .intro p:first-of-type {
   max-width: 650px;
   margin: 0px auto 60px;
@@ -414,7 +464,7 @@ section.gradient {
 }
 
 @media (min-width: 1200px) {
-  /* line 380, ../sass/screen.scss */
+  /* line 420, ../sass/screen.scss */
   .people .container {
     width: 960px;
   }

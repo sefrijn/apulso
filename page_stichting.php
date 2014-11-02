@@ -10,7 +10,7 @@
 <div class="page news stichting">
 	<div id="navigation">
 		<div class="container">
-		<a href="<?php echo get_site_url(); ?>"><h1><img src="<?php echo get_template_directory_uri() ?>/img/logo.png" />aPulso</h1></a>
+		<a href="<?php echo get_site_url(); ?>"><h1><img src="<?php echo get_template_directory_uri() ?>/img/logo.png" /></h1></a>
 		<?php
 			wp_nav_menu();
 		?>
