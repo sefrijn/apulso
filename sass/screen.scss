@@ -1,0 +1,383 @@
+/*
+Theme Name: Mundico
+Theme URI: http://www.mundico.nl/
+Author: How About Yes
+Author URI: http://www.howaboutyes.com/
+Description:Custom made theme for Mundico.
+Version: 0.1
+Tags: custom, charity, development
+Text Domain: Mundico
+
+*/
+
+// @import "compass/reset";
+@import "../bower_components/bootstrap/dist/css/bootstrap.min.css";
+@import "compass/css3";
+
+$green:	#5cba70;
+$blue:	#2d7bc3;
+$darkblue:	#184066;
+$black:	#222222;
+$white:	#ffffff;
+$text:	#444444;
+$grey: #aaaaaa;
+
+
+body, a{
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+}
+p{
+	font-size: 17px;
+	line-height:30px;
+	color: $text;
+	font-weight:300;
+}
+a{
+	color: $blue;
+	&:hover{
+		color: $blue;
+		text-decoration: underline;
+	}
+}
+blockquote{
+	border:none;
+	text-align:center;
+	p{
+		color: $blue;
+		font-size:22px;
+		line-height:36px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	p:before, p:after {
+    content: "\"";
+	}
+}
+
+#slides{
+	height:400px;
+}
+
+#navigation{
+  @include transition(background 0.5s ease);
+	z-index:5;
+	position:fixed;
+	width:100%;
+	h1{
+		img{
+			margin-right:10px;
+			margin-top:-3px;
+		}
+		margin-top:15px;
+		float:left;
+		color:#ffffff;
+		&:hover{
+			text-decoration: underline;
+		}
+	}	
+	ul.menu{
+		margin-top:25px;
+		padding-bottom:20px;
+		padding-left:0px !important;
+		-webkit-padding-start: 0px;
+		float:right;
+		li{
+			a{
+				color:#fff;
+				font-size:16px;
+				font-weight:100;
+				&:hover{
+					color: $white;
+				}
+			}
+			position: relative;
+			list-style-type: none;
+			display: inline;
+			padding: 10px 10px;
+			&:hover{
+				background: #5cba70;
+			}
+		}
+		.menu-item-70{
+			background:#2d7bc3;
+		}
+		ul.sub-menu{
+			background: #5cba70;
+			padding:0px;
+			margin:0px;
+			// margin-left:1px;
+			text-align: left;
+			li{
+				margin:0px;
+				padding:7px 15px;
+				display: block;
+			}
+			display:none;
+			position:absolute;
+			top:39px;
+			left:0px;
+			right:0px;
+			min-width:150px;
+			// width:220px;
+		}
+	}	
+}
+.solid_background{
+	background-color: $black;
+}
+
+header{
+	@include background(url('../img/header.jpg'));
+	@include background-size(cover);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height:400px;
+}
+
+.home{
+	header{
+		background:#000000;
+	}
+}
+
+.payoff .container{
+	text-align:center;
+	padding-bottom:20px;
+	h1{
+		margin: 30px 0px 30px 0px;
+		color: #5cba70;
+	}
+	p{
+		padding:10px 180px;
+		font-size:18px;
+		&:nth-child(2){
+			font-size:21px;
+			font-weight:bold;
+		}
+	}
+}
+.projects{
+	height:460px;
+	background-color: #5cba70;
+	position: relative;
+	color:#fff;
+	line-height:23px;
+	.left{
+		position:absolute;
+		margin-left:50%;
+		left:-480px;
+		position: relative;
+		height:360px;
+		width:420px;
+		padding:20px 15px;
+		h1{
+			margin-bottom:30px;
+		}
+		p{
+
+		}
+		a.button{
+			margin-top:10px;
+			color:#fff;
+			display: inline-block;
+			padding:8px;
+			background: #2d7bc3;
+		}
+	}
+	.right{
+		position: absolute;
+		top:0px;
+		left:50%;
+		width:50%;
+		height:460px;
+	}
+}
+
+section.gradient{
+	left:0px;
+	right:0px;
+	position:absolute;
+	top:0px;
+	height:400px;
+	z-index:3;
+	@include background(linear-gradient(rgba(0,0,0,0.6) 8%, rgba(0,0,0,0) 28%) !important);
+}
+
+.people{
+	h1{
+		 margin-left:0;
+		 margin-top:40px;
+	}
+	h2{
+		padding:0px;
+		margin:5px 0px;
+		font-family: 'Montserrat', sans-serif;
+		font-size:24px;
+		&:hover{
+			text-decoration: underline;
+		}		
+	}
+	h2.name{
+		margin-top:40px;
+	}
+	h2.title{
+		font-family: 'Open Sans', sans-serif;
+		font-weight:300;
+		color:$grey;
+	}
+	img{
+		@include border-radius(80px, 80px);
+		float:left;
+		margin-right:20px;
+	}
+	.person{
+		float:left;
+		width:50%;
+		padding:2% 2%;
+		margin:20px 0;
+		a:hover{
+			text-decoration: none;
+		}
+
+	}
+}
+
+.single, .page{
+	section{
+		h1{
+			color: $green;
+			text-align: center;
+			margin: 60px 0px 30px;
+		}
+		.meta{
+			color: $grey;			
+			margin-bottom:30px;
+			text-align: center;
+			a{
+				color: $grey;
+				text-decoration: underline;
+				&:hover{
+					color: $black;
+					background: transparent;
+				}
+			}
+			.avatar-32{
+				@include border-radius(16px, 16px);
+			}		
+
+		}
+	}
+	.content .alignnone{
+		width:100% !important;
+		height:auto;
+		img{
+			width:100% !important;
+			height:auto;
+
+		}
+
+		margin-top:40px;
+		margin-bottom:50px;
+
+	}
+	.content .wp-caption-text{
+		text-align: center;
+	}
+	.content p{
+		margin:0px auto 20px;
+		max-width:650px;
+	}
+	.content h2{
+		margin:50px auto 20px;
+		max-width:650px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+}
+
+.single{
+	.content p{
+		&:first-of-type{
+			font-weight:400;
+			font-size: 21px;
+			line-height:40px;
+			padding-top:20px;
+			padding-bottom:20px;
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+		}
+	}
+}
+.page{
+	section{
+		h1{
+			margin-bottom:60px;
+		}
+	}
+}
+
+.news section{
+	h1{
+		color: $green;
+		text-align: center;
+	}
+}
+.news{
+	.posts{
+		margin-bottom:60px;
+		max-width:960px;
+		.content{
+			float:right;
+			width:580px;
+		}
+		.meta{
+			margin-top:10px;
+			margin-bottom:25px;
+			color: $grey;
+			text-align:left;
+			a{
+				color: $grey;
+				text-decoration: underline;
+				&:hover{
+					color: $black;
+					background: transparent;
+				}
+			}
+		}
+		.avatar-32{
+			@include border-radius(16px, 16px);
+		}
+		h2{
+			margin:5px 0px;
+			font-family: 'Montserrat', sans-serif;
+			font-size:24px;
+		}
+	}
+}
+.project, .stichting{
+	.posts{
+		h2{
+			margin-bottom:15px;
+		}
+	}
+	.intro{
+		p{
+			&:first-of-type{
+				max-width:650px;
+				margin:0px auto 60px;
+				text-align:center;
+				font-size:25px;
+				line-height: 38px;
+			}
+		}		
+	}
+}
+
+@media (min-width:1200px){
+	.people .container{
+		width:960px;
+	}
+}
