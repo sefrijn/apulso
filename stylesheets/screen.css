@@ -234,7 +234,7 @@ footer p {
 
 /* line 202, ../sass/screen.scss */
 .projects {
-  height: 460px;
+  height: 360px;
   background-color: #5cba70;
   position: relative;
   color: #fff;
@@ -251,10 +251,19 @@ footer p {
   padding: 20px 15px;
 }
 /* line 216, ../sass/screen.scss */
-.projects .left h1 {
+.projects .left h1, .projects .left h2 {
   margin-bottom: 30px;
 }
-/* line 222, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
+.projects .left h3 {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+/* line 230, ../sass/screen.scss */
 .projects .left a.button {
   margin-top: 10px;
   color: #fff;
@@ -262,16 +271,16 @@ footer p {
   padding: 8px;
   background: #2d7bc3;
 }
-/* line 230, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .projects .right {
   position: absolute;
   top: 0px;
   left: 50%;
   width: 50%;
-  height: 460px;
+  height: 360px;
 }
 
-/* line 239, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 section.gradient {
   left: 0px;
   right: 0px;
@@ -286,33 +295,33 @@ section.gradient {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 8%, rgba(0, 0, 0, 0) 28%) !important;
 }
 
-/* line 250, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .people h1 {
   margin-left: 0;
   margin-top: 40px;
 }
-/* line 254, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .people h2 {
   padding: 0px;
   margin: 5px 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
 }
-/* line 259, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .people h2:hover {
   text-decoration: underline;
 }
-/* line 263, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 .people h2.name {
   margin-top: 40px;
 }
-/* line 266, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .people h2.title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
-/* line 271, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 .people img {
   -webkit-border-radius: 80px 80px;
   -moz-border-radius: 80px / 80px;
@@ -320,75 +329,75 @@ section.gradient {
   float: left;
   margin-right: 20px;
 }
-/* line 276, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .people .person {
   float: left;
   width: 50%;
   padding: 2% 2%;
   margin: 20px 0;
 }
-/* line 281, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 .people .person a:hover {
   text-decoration: none;
 }
 
-/* line 290, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .single section h1, .page section h1 {
   color: #5cba70;
   text-align: center;
   margin: 60px 0px 30px;
 }
-/* line 295, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 .single section .meta, .page section .meta {
   color: #aaaaaa;
   margin-bottom: 30px;
   text-align: center;
 }
-/* line 299, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .single section .meta a, .page section .meta a {
   color: #aaaaaa;
   text-decoration: underline;
 }
-/* line 302, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 .single section .meta a:hover, .page section .meta a:hover {
   color: #222222;
   background: transparent;
 }
-/* line 307, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .single section .meta .avatar-32, .page section .meta .avatar-32 {
   -webkit-border-radius: 16px 16px;
   -moz-border-radius: 16px / 16px;
   border-radius: 16px / 16px;
 }
-/* line 313, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 .single .content .alignnone, .page .content .alignnone {
   width: 100% !important;
   height: auto;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-/* line 316, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 .single .content .alignnone img, .page .content .alignnone img {
   width: 100% !important;
   height: auto;
 }
-/* line 326, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 .single .content .wp-caption-text, .page .content .wp-caption-text {
   text-align: center;
 }
-/* line 329, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 .single .content p, .page .content p {
   margin: 0px auto 20px;
   max-width: 650px;
 }
-/* line 333, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 .single .content h2, .page .content h2 {
   margin: 50px auto 20px;
   max-width: 650px;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 343, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 .single .content p:first-of-type {
   font-weight: 400;
   font-size: 21px;
@@ -399,62 +408,62 @@ section.gradient {
   border-bottom: 1px solid #eee;
 }
 
-/* line 356, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 .page section h1 {
   margin-bottom: 60px;
 }
 
-/* line 363, ../sass/screen.scss */
+/* line 371, ../sass/screen.scss */
 .news section h1 {
   color: #5cba70;
   text-align: center;
 }
 
-/* line 369, ../sass/screen.scss */
+/* line 377, ../sass/screen.scss */
 .news .posts {
   margin-bottom: 60px;
   max-width: 960px;
 }
-/* line 372, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .news .posts .content {
   float: right;
   width: 580px;
 }
-/* line 376, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 .news .posts .meta {
   margin-top: 10px;
   margin-bottom: 25px;
   color: #aaaaaa;
   text-align: left;
 }
-/* line 381, ../sass/screen.scss */
+/* line 389, ../sass/screen.scss */
 .news .posts .meta a {
   color: #aaaaaa;
   text-decoration: underline;
 }
-/* line 384, ../sass/screen.scss */
+/* line 392, ../sass/screen.scss */
 .news .posts .meta a:hover {
   color: #222222;
   background: transparent;
 }
-/* line 390, ../sass/screen.scss */
+/* line 398, ../sass/screen.scss */
 .news .posts .avatar-32 {
   -webkit-border-radius: 16px 16px;
   -moz-border-radius: 16px / 16px;
   border-radius: 16px / 16px;
 }
-/* line 393, ../sass/screen.scss */
+/* line 401, ../sass/screen.scss */
 .news .posts h2 {
   margin: 5px 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
 }
 
-/* line 402, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 .project .posts h2, .stichting .posts h2 {
   margin-bottom: 15px;
 }
-/* line 408, ../sass/screen.scss */
+/* line 416, ../sass/screen.scss */
 .project .intro p:first-of-type, .stichting .intro p:first-of-type {
   max-width: 650px;
   margin: 0px auto 60px;
@@ -464,7 +473,7 @@ section.gradient {
 }
 
 @media (min-width: 1200px) {
-  /* line 420, ../sass/screen.scss */
+  /* line 428, ../sass/screen.scss */
   .people .container {
     width: 960px;
   }

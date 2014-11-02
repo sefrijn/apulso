@@ -61,18 +61,20 @@
 	<section class="wrapper projects">
 		<div class="left">
 			<?php $green_post_id = get_ID_by_slug('secondary'); ?>		
+			<?php $read_more = get_ID_by_slug('mujeres-de-balgue'); ?>
+
 			<?php	
 			$payoff = get_post($green_post_id); 
 			$title = $payoff->post_title;
 			$content = $payoff->post_content;
-			$url = get_permalink(29);
+			$url = get_permalink($read_more);
 			?>
-			<h1><?php echo $title; ?></h1>
+			<h2><?php echo $title; ?></h2>
 			<?php echo $content; ?>
 			<a href="<?php echo $url ?>" class="button">Lees meer over dit project</a>		
 		</div>
-		<div class="right" style="<?php if ( has_post_thumbnail(29) ) {
-			$post_image_id = get_post_thumbnail_id(29);
+		<div class="right" style="<?php if ( has_post_thumbnail($green_post_id) ) {
+			$post_image_id = get_post_thumbnail_id($green_post_id);
 			if ($post_image_id) {
 				$thumbnail = wp_get_attachment_image_src( $post_image_id, 'large', false);
 				if ($thumbnail) (string)$thumbnail = $thumbnail[0];
