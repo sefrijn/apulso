@@ -331,11 +331,19 @@ section.gradient{
 		margin-bottom:50px;
 
 	}
-	.content .alignleft.size-medium{
+	.content .aligncenter{
+	}
+	.content .alignleft{
 		float: left;
-		margin: 30px;
+		margin: 20px;
 		margin-left: 150px;
 	}
+	.content .alignright{
+		float: right;
+		margin: 20px;
+		margin-left: 150px;
+	}
+
 	.content .wp-caption-text{
 		text-align: center;
 	}
