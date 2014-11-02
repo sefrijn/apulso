@@ -382,22 +382,28 @@ section.gradient {
   height: auto;
 }
 /* line 334, ../sass/screen.scss */
+.single .content .alignleft.size-medium, .page .content .alignleft.size-medium {
+  float: left;
+  margin: 30px;
+  margin-left: 150px;
+}
+/* line 339, ../sass/screen.scss */
 .single .content .wp-caption-text, .page .content .wp-caption-text {
   text-align: center;
 }
-/* line 337, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 .single .content p, .page .content p {
   margin: 0px auto 20px;
   max-width: 650px;
 }
-/* line 341, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 .single .content h2, .page .content h2 {
   margin: 50px auto 20px;
   max-width: 650px;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 351, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 .single .content p:first-of-type {
   font-weight: 400;
   font-size: 21px;
@@ -408,62 +414,62 @@ section.gradient {
   border-bottom: 1px solid #eee;
 }
 
-/* line 364, ../sass/screen.scss */
+/* line 369, ../sass/screen.scss */
 .page section h1 {
   margin-bottom: 60px;
 }
 
-/* line 371, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .news section h1 {
   color: #5cba70;
   text-align: center;
 }
 
-/* line 377, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 .news .posts {
   margin-bottom: 60px;
   max-width: 960px;
 }
-/* line 380, ../sass/screen.scss */
+/* line 385, ../sass/screen.scss */
 .news .posts .content {
   float: right;
   width: 580px;
 }
-/* line 384, ../sass/screen.scss */
+/* line 389, ../sass/screen.scss */
 .news .posts .meta {
   margin-top: 10px;
   margin-bottom: 25px;
   color: #aaaaaa;
   text-align: left;
 }
-/* line 389, ../sass/screen.scss */
+/* line 394, ../sass/screen.scss */
 .news .posts .meta a {
   color: #aaaaaa;
   text-decoration: underline;
 }
-/* line 392, ../sass/screen.scss */
+/* line 397, ../sass/screen.scss */
 .news .posts .meta a:hover {
   color: #222222;
   background: transparent;
 }
-/* line 398, ../sass/screen.scss */
+/* line 403, ../sass/screen.scss */
 .news .posts .avatar-32 {
   -webkit-border-radius: 16px 16px;
   -moz-border-radius: 16px / 16px;
   border-radius: 16px / 16px;
 }
-/* line 401, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 .news .posts h2 {
   margin: 5px 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
 }
 
-/* line 410, ../sass/screen.scss */
+/* line 415, ../sass/screen.scss */
 .project .posts h2, .stichting .posts h2 {
   margin-bottom: 15px;
 }
-/* line 416, ../sass/screen.scss */
+/* line 421, ../sass/screen.scss */
 .project .intro p:first-of-type, .stichting .intro p:first-of-type {
   max-width: 650px;
   margin: 0px auto 60px;
@@ -473,7 +479,7 @@ section.gradient {
 }
 
 @media (min-width: 1200px) {
-  /* line 428, ../sass/screen.scss */
+  /* line 433, ../sass/screen.scss */
   .people .container {
     width: 960px;
   }
