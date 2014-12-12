@@ -87,4 +87,9 @@
 		</div>			
 	</section>
 </div>
+<?php if ( is_active_sidebar( 'footer_widget' ) ) : ?>
+	<div class="container footer_widget">
+				<?php dynamic_sidebar( 'footer_widget' ); ?>
+	</div>
+<?php endif; ?>
 <?php get_footer() ?>

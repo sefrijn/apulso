@@ -27,5 +27,21 @@ function get_ID_by_slug($page_slug) {
     }
 }
 
+
+function arphabet_widgets_init() {
+
+	register_sidebar( array(
+		'name' => 'Footer widget area',
+		'id' => 'footer_widget',
+		'before_widget' => '<div class="">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	) );
+}
+
+add_action( 'widgets_init', 'arphabet_widgets_init' );
+
+
 add_filter('the_content', 'filter_ptags_on_images');	
 ?>

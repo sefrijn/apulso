@@ -177,6 +177,17 @@ footer{
 	}
 }
 
+.footer_widget{
+	max-width: 960px;
+	padding-bottom:30px;
+	.wysija-submit{
+		background: $blue;
+		border:none;
+		padding:8px;
+		color: $white;
+	}
+}
+
 .home{
 	header{
 		background:#000000;

@@ -206,33 +206,46 @@ footer p {
   color: white;
 }
 
-/* line 181, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
+.footer_widget {
+  max-width: 960px;
+  padding-bottom: 30px;
+}
+/* line 183, ../sass/screen.scss */
+.footer_widget .wysija-submit {
+  background: #2d7bc3;
+  border: none;
+  padding: 8px;
+  color: white;
+}
+
+/* line 192, ../sass/screen.scss */
 .home header {
   background: #000000;
 }
 
-/* line 186, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .payoff .container {
   text-align: center;
   padding-bottom: 20px;
 }
-/* line 189, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .payoff .container h1 {
   margin: 30px 0px 30px 0px;
   color: #5cba70;
 }
-/* line 193, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .payoff .container p {
   padding: 10px 180px;
   font-size: 18px;
 }
-/* line 196, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .payoff .container p:nth-child(2) {
   font-size: 21px;
   font-weight: bold;
 }
 
-/* line 202, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 .projects {
   height: 360px;
   background-color: #5cba70;
@@ -240,7 +253,7 @@ footer p {
   color: #fff;
   line-height: 23px;
 }
-/* line 208, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 .projects .left {
   position: absolute;
   margin-left: 50%;
@@ -250,11 +263,11 @@ footer p {
   width: 420px;
   padding: 20px 15px;
 }
-/* line 216, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 .projects .left h1, .projects .left h2 {
   margin-bottom: 30px;
 }
-/* line 219, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .projects .left h3 {
   color: white;
   margin-top: 0px;
@@ -263,7 +276,7 @@ footer p {
   font-weight: 300;
   font-size: 20px;
 }
-/* line 230, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .projects .left a.button {
   margin-top: 10px;
   color: #fff;
@@ -271,7 +284,7 @@ footer p {
   padding: 8px;
   background: #2d7bc3;
 }
-/* line 238, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .projects .right {
   position: absolute;
   top: 0px;
@@ -280,7 +293,7 @@ footer p {
   height: 360px;
 }
 
-/* line 247, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 section.gradient {
   left: 0px;
   right: 0px;
@@ -295,33 +308,33 @@ section.gradient {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 8%, rgba(0, 0, 0, 0) 28%) !important;
 }
 
-/* line 258, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .people h1 {
   margin-left: 0;
   margin-top: 40px;
 }
-/* line 262, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .people h2 {
   padding: 0px;
   margin: 5px 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
 }
-/* line 267, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 .people h2:hover {
   text-decoration: underline;
 }
-/* line 271, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .people h2.name {
   margin-top: 40px;
 }
-/* line 274, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .people h2.title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #aaaaaa;
 }
-/* line 279, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .people img {
   -webkit-border-radius: 80px 80px;
   -moz-border-radius: 80px / 80px;
@@ -329,85 +342,85 @@ section.gradient {
   float: left;
   margin-right: 20px;
 }
-/* line 284, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .people .person {
   float: left;
   width: 50%;
   padding: 2% 2%;
   margin: 20px 0;
 }
-/* line 289, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .people .person a:hover {
   text-decoration: none;
 }
 
-/* line 298, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 .single section h1, .page section h1 {
   color: #5cba70;
   text-align: center;
   margin: 60px 0px 30px;
 }
-/* line 303, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 .single section .meta, .page section .meta {
   color: #aaaaaa;
   margin-bottom: 30px;
   text-align: center;
 }
-/* line 307, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 .single section .meta a, .page section .meta a {
   color: #aaaaaa;
   text-decoration: underline;
 }
-/* line 310, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 .single section .meta a:hover, .page section .meta a:hover {
   color: #222222;
   background: transparent;
 }
-/* line 315, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .single section .meta .avatar-32, .page section .meta .avatar-32 {
   -webkit-border-radius: 16px 16px;
   -moz-border-radius: 16px / 16px;
   border-radius: 16px / 16px;
 }
-/* line 321, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 .single .content .alignnone, .page .content .alignnone {
   width: 100% !important;
   height: auto;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-/* line 324, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 .single .content .alignnone img, .page .content .alignnone img {
   width: 100% !important;
   height: auto;
 }
-/* line 336, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 .single .content .alignleft, .page .content .alignleft {
   float: left;
   margin: 0px 20px 20px 0px;
 }
-/* line 340, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 .single .content .alignright, .page .content .alignright {
   float: right;
   margin: 0px 0px 20px 20px;
 }
-/* line 345, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 .single .content .wp-caption-text, .page .content .wp-caption-text {
   text-align: center;
 }
-/* line 348, ../sass/screen.scss */
+/* line 359, ../sass/screen.scss */
 .single .content p, .page .content p {
   margin: 0px auto 20px;
   max-width: 650px;
 }
-/* line 352, ../sass/screen.scss */
+/* line 363, ../sass/screen.scss */
 .single .content h2, .page .content h2 {
   margin: 50px auto 20px;
   max-width: 650px;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 362, ../sass/screen.scss */
+/* line 373, ../sass/screen.scss */
 .single .content p:first-of-type {
   font-weight: 400;
   font-size: 21px;
@@ -418,62 +431,62 @@ section.gradient {
   border-bottom: 1px solid #eee;
 }
 
-/* line 375, ../sass/screen.scss */
+/* line 386, ../sass/screen.scss */
 .page section h1 {
   margin-bottom: 60px;
 }
 
-/* line 382, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 .news section h1 {
   color: #5cba70;
   text-align: center;
 }
 
-/* line 388, ../sass/screen.scss */
+/* line 399, ../sass/screen.scss */
 .news .posts {
   margin-bottom: 60px;
   max-width: 960px;
 }
-/* line 391, ../sass/screen.scss */
+/* line 402, ../sass/screen.scss */
 .news .posts .content {
   float: right;
   width: 580px;
 }
-/* line 395, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 .news .posts .meta {
   margin-top: 10px;
   margin-bottom: 25px;
   color: #aaaaaa;
   text-align: left;
 }
-/* line 400, ../sass/screen.scss */
+/* line 411, ../sass/screen.scss */
 .news .posts .meta a {
   color: #aaaaaa;
   text-decoration: underline;
 }
-/* line 403, ../sass/screen.scss */
+/* line 414, ../sass/screen.scss */
 .news .posts .meta a:hover {
   color: #222222;
   background: transparent;
 }
-/* line 409, ../sass/screen.scss */
+/* line 420, ../sass/screen.scss */
 .news .posts .avatar-32 {
   -webkit-border-radius: 16px 16px;
   -moz-border-radius: 16px / 16px;
   border-radius: 16px / 16px;
 }
-/* line 412, ../sass/screen.scss */
+/* line 423, ../sass/screen.scss */
 .news .posts h2 {
   margin: 5px 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
 }
 
-/* line 421, ../sass/screen.scss */
+/* line 432, ../sass/screen.scss */
 .project .posts h2, .stichting .posts h2 {
   margin-bottom: 15px;
 }
-/* line 427, ../sass/screen.scss */
+/* line 438, ../sass/screen.scss */
 .project .intro p:first-of-type, .stichting .intro p:first-of-type {
   max-width: 650px;
   margin: 0px auto 60px;
@@ -483,7 +496,7 @@ section.gradient {
 }
 
 @media (min-width: 1200px) {
-  /* line 439, ../sass/screen.scss */
+  /* line 450, ../sass/screen.scss */
   .people .container {
     width: 960px;
   }
