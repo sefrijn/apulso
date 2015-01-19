@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mundico</title>
+	<title>aPulso</title>
 	<script src="<?php echo get_template_directory_uri(); ?>/bower_components/jquery/dist/jquery.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/main.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/jquery.superslides.min.js"></script>
